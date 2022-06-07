@@ -6,7 +6,7 @@
 
 ## Projektbeschreibung
 
-Das Statistische Amt fragt die täglichen Konkurseröffnungungen der kantonalen Handelsregisterämter via die ZEFIX API ab. Berücksichtigt werden alle Mutationen *KE Auflösung inf. Konkurs*. Anschliessend reichern wir die Meldungen mit den Branchenklassifikationen aus dem Betriebs- und Unternehmensregister BUR an. Die täglichen Meldungen aggregieren wir nach Branchenaggregaten gemäss NOGA-Klassifikation (https://www.kubb-tool.bfs.admin.ch/de).
+Das Statistische Amt fragt die täglichen Konkurseröffnungungen der kantonalen Handelsregisterämter via die ZEFIX API ab. Erfasst wird die erstmalige Konkurseröffnung einer Firma, berücksichtigt durch die Mutation *KE Auflösung inf. Konkurs*. Anschliessend reichern wir die Meldungen mit den Branchenklassifikationen aus dem Betriebs- und Unternehmensregister BUR an. Die täglichen Meldungen aggregieren wir nach Branchenaggregaten gemäss NOGA-Klassifikation (https://www.kubb-tool.bfs.admin.ch/de).
 
 ### Zentraler Firmenindex ZEFIX
 ZEFIX Websuche: https://www.zefix.admin.ch/de/search/entity/welcome  
