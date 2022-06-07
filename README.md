@@ -9,22 +9,23 @@
 Das Statistische Amt fragt die täglichen Konkurseröffnungungen der kantonalen Handelsregisterämter via die ZEFIX API ab. Berücksichtigt werden alle Mutationen *KE Auflösung inf. Konkurs*. Anschliessend reichern wir die Meldungen mit den Branchenklassifikationen aus dem Betriebs- und Unternehmensregister BUR an. Die täglichen Meldungen aggregieren wir nach Branchenaggregaten gemäss NOGA-Klassifikation (https://www.kubb-tool.bfs.admin.ch/de).
 
 ### Zentraler Firmenindex ZEFIX
-ZEFIX Websuche: https://www.zefix.admin.ch/de/search/entity/welcome
-API: https://www.zefix.admin.ch/ZefixPublicREST/swagger-ui/index.html
+ZEFIX Websuche: https://www.zefix.admin.ch/de/search/entity/welcome  
+API: https://www.zefix.admin.ch/ZefixPublicREST/swagger-ui/index.html  
 Kontakt: https://www.e-service.admin.ch/wiki/display/openegovdoc/Zefix+Webservice
 
 ## Mitwirkende
 
 Vielen Dank an folgende Personen die mitgewirkt haben: 
 
-[@kalakaru](https://github.com/kalakaru)
-[@mmznrSTAT](https://github.com/mmznrSTAT)
+[@CGRBZH](https://github.com/CGRBZH)
+[@BasilSch](https://github.com/BasilSch)
+Christian Pauli
 
 ## Kontakt
 
 Andrea Schnell  <br>
 andrea.schnell@statistik.ji.zh.ch <br>
-Telefonnummer <br>
+043 259 75 69 <br>
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/statistik_zh?style=social)
 
