@@ -25,7 +25,7 @@ Christian Pauli
 
 Andrea Schnell  <br>
 andrea.schnell@statistik.ji.zh.ch <br>
-043 259 75 69 <br>
+043 259 75 58 <br>
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/statistik_zh?style=social)
 
