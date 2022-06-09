@@ -1,52 +1,31 @@
 ![](https://opendata.swiss/content/uploads/2016/02/kt_zh.png)
 
-# Projekt Name
+# Tägliche Konkurseröffnungen aus dem Zentralen Firmenindex ZEFIX
 
 *Read this in other languages: [English](README_EN.md)*
 
 ## Projektbeschreibung
 
-Beschreibe hier das Projekt: Einführung, Methodik, Ergebnisse, empfohlene Zitierform etc. <br>
-Bedenke, dass github der Ort ist, an dem wir Code austauschen. Dies ist also der Ort, an dem interessierte Personen nach Anweisungen suchen. Interessierte möchen hier z.B: informationen zu folgenden Themen finden: Wie die Analyse durchgeführt wurde? Was muss beim Ausführen des Codes beachtet werden? Was bedeuten die Variablennamen? Ein schönes Beispiel ist hier zu finden: https://github.com/tamedia-ddj/SUV_Analyse_Schweiz
+Das Statistische Amt fragt die täglichen Konkurseröffnungungen der kantonalen Handelsregisterämter via die ZEFIX API ab. Erfasst wird die erstmalige Konkurseröffnung einer Firma, berücksichtigt durch die Mutation *KE Auflösung inf. Konkurs*. Anschliessend reichern wir die Meldungen mit den Branchenklassifikationen aus dem Betriebs- und Unternehmensregister BUR an. Die täglichen Meldungen aggregieren wir nach Branchenaggregaten gemäss NOGA-Klassifikation (https://www.kubb-tool.bfs.admin.ch/de).
 
-## Voraussetzungen
-
-z.B.: 
-
-R version 3.5.0 (2018-04-23) <br>
-RStudio version 1.1.453 <br>
-Deppendencies: <br>
-|package name | version number |
-| ------------- | ------------- | 
-|dplyr     |    0.8.3 |
-|sf     |    0.8-1 |
-
-
-R Code um die obigen Informationen zu erhalten: 
-
-```R 
-# R version
-print(version[['version.string']])
-# R Studio Version
-require(rstudioapi)
-RStudioversionInfo <- versionInfo()
-print(paste("RStudio version", RStudioversionInfo$version))
-# list names of loaded libraries with version number
-print(subset(data.frame(sessioninfo::package_info()), attached==TRUE, c(package, loadedversion)),  row.names = FALSE)
-```
+### Zentraler Firmenindex ZEFIX
+ZEFIX Websuche: https://www.zefix.admin.ch/de/search/entity/welcome  
+API: https://www.zefix.admin.ch/ZefixPublicREST/swagger-ui/index.html  
+Kontakt: https://www.e-service.admin.ch/wiki/display/openegovdoc/Zefix+Webservice
 
 ## Mitwirkende
 
 Vielen Dank an folgende Personen die mitgewirkt haben: 
 
-[@kalakaru](https://github.com/kalakaru)
-[@mmznrSTAT](https://github.com/mmznrSTAT)
+[@CGRBZH](https://github.com/CGRBZH)
+[@BasilSch](https://github.com/BasilSch)
+Christian Pauli
 
 ## Kontakt
 
-Vorname Nachname  <br>
-vorname.nachname@statistik.ji.zh.ch <br>
-Telefonnummer <br>
+Andrea Schnell  <br>
+andrea.schnell@statistik.ji.zh.ch <br>
+043 259 75 69 <br>
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/statistik_zh?style=social)
 
